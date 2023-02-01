@@ -60,10 +60,4 @@ input{
   color: green;
 }
 
-@media only screen and (max-width: 768px) {
-  /* Para teléfonos móviles: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 
