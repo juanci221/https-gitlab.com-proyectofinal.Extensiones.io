@@ -1,0 +1,19 @@
+{
+    "lang": "es",
+    "name": "Currículum Vitae",
+    "short-name": "C.Vitae",
+    "description":"Muestra un ejemplo de un Currículum Vitae",
+    "start_url": "index.html",
+    "thema-color":"#00A862",
+    "background_color":"#FFFFFF",
+    "display":"standalone",
+    "orientation":"portrait",
+    "icons": [
+        {
+          "src": "js/imag1-icono.png",
+          "type": "image/png", 
+          "sizes": "315x315"
+        }
+    ]
+
+}
