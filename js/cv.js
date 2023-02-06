@@ -11,10 +11,22 @@ document.getElementById("boton-aparecer").addEventListener('click', function () 
 
 document.getElementById("boton").addEventListener('click', function () {
     console.log("juan quinodoz");
-    document.getElementById("demo").innerHTML= "Jeremy Wagner Estudiante de Front end  «desarrollo del lado del cliente» se refiere a la práctica de producir HTML, CSS y JavaScript."
+    document.getElementById("info").innerHTML= "Jeremy Wagner Estudiante de Front end  «desarrollo del lado del cliente» se refiere a la práctica de producir HTML, CSS y JavaScript."
+})
+function firma() {
+    console.log("Firma");
+    let firma= "Jeremy Wagner";
+     return firma
+}
+document.getElementById('boton-firma').addEventListener('click', function () {
+    document.getElementById("firma").innerHTML=firma()
+ 
 })
 
-function firma() {
-    console.log("Juan Quinodoz");
-    return "Jeremy Wagner";
 }
+function edad() {
+    console.log("Edad");
+    let años= "53"
+    return años
+  }
+  document.getElementById("edad").innerHTML = edad();
