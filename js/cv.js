@@ -23,7 +23,7 @@ document.getElementById('boton-firma').addEventListener('click', function () {
  
 })
 
-}
+
 function edad() {
     console.log("Edad");
     let años= "53"
