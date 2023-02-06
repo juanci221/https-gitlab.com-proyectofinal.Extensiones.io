@@ -27,14 +27,14 @@
         </i> <p> Provincia: entre rios<br> Ciudad: nogoya</p>
        <i class="fa-solid fa-envelope"></i> <p>jeremy@example.com</p>
        <i class="fa-solid fa-id-card"></i>
-        <p>Fecha De Nacimiento: 10/5/1970 </p>
+        <p>Fecha De Nacimiento: 10/5/1970 <br> Edad: <ins id="edad"></ins> </p>
         <i class="fa-solid fa-phone"></i><p>Tel. Cel: (697) 851-6645</p>
 
-        <p id="demo"></p>
+        <p id="info"></p>
 <button type="button" id="boton">Opcional</button>
 
-<button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">Fecha y Hora.</button>
-    <p id="demo1"></p>
+<button type="button" onclick="document.getElementById('fecha').innerHTML = Date()">Fecha y Hora.</button>
+    <p id="fecha"></p>
 
 </div>
 
@@ -77,9 +77,9 @@
 </div>
 <button type="button" id="boton-ocultar">Ocultar</button>
 <button type="button" id="boton-aparecer">Mostrar</button>
-<button type="button" onclick="document.getElementById('demo2').innerHTML = firma()">Firma </button>
-<p id="demo2"></p>
-
+<button type="button" id="boton-firma">Firma </button>
+<p id="firma"></p>
+    
 <script src="js/cv.js"></script>
 <input type="button" value="Imprime esta página" onclick="window.print()">
 
