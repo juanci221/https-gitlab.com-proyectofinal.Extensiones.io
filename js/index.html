@@ -13,14 +13,14 @@
 </head>
 <body>
 
-    <header>
+    <header id="identidad">
          <h1 id="nombre">Jeremy Wagner <br> Estudiante de Front end</h1>
     </header>
             <img src= "./imag/jhon.jpg" alt="imagen de Jeremy Wagner">
 
 
 <div class="col-1">
-    <h2>Contacto</h2>
+    <h2 id="Contacto">Contacto</h2>
     <i class="fa-solid fa-location-pin"></i>
        <p>Nacionalidad: Argentina</p>
        <i class="fa-solid fa-address-card"></i>
@@ -35,6 +35,13 @@
 
 <button type="button" onclick="document.getElementById('fecha').innerHTML = Date()">Fecha y Hora.</button>
     <p id="fecha"></p>
+    
+      <nav>
+            <p><a target="_blank" href="https://es.wikipedia.org/wiki/Curriculum_vitae">C.V. wikipedia</a></p>
+            <p><a href="#edu">Educacion</a></p>
+            <p><a href="#Contacto">Contacto</a></p> 
+            <p><a href="#identidad">Nombre/Apellido</a></p>
+        </nav>
 
 </div>
 
@@ -51,7 +58,7 @@
             y también, nuevos conocimientos o, simplemente, otra perspectiva.</p>
         </article>
 
-        <h2>Educacion</h2>
+        <h2 id="edu">Educacion</h2>
     <ul>
     <li>Secundario: Completo (tecnico)</li>
     <li>Curso En Proceso: Front end Academy/ Argentina Programa 4.0</li>
